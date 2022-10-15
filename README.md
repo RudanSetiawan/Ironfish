@@ -13,5 +13,4 @@ Minimal Spesifikasi VPS
 wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.sh && sudo /bin/bash ironfish.sh
 ```
 
-https://raw.githubusercontent.com/RudanSetiawan/Ironfish/main/photo_2022-10-15_16-34-37.jpg
-
+![photo_2022-10-15_16-34-37](https://user-images.githubusercontent.com/91402307/195981562-794e3b9e-f9cd-462b-906b-9a4fe7837a05.jpg)
