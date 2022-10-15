@@ -38,7 +38,7 @@ wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.s
 cat $HOME/.ironfish/config.json
 ```
 
-### Membuat
+### Membuat Akun
 ```
 ironfish accounts:create
 ```
