@@ -15,6 +15,6 @@ wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.s
 
 ![photo_2022-10-15_16-34-37](https://user-images.githubusercontent.com/91402307/195981562-794e3b9e-f9cd-462b-906b-9a4fe7837a05.jpg)
 
-Isi Nama Wallet & Nama Node sesuai dengan Nama Grafftin
+### Isi Nama Wallet & Nama Node sesuai dengan Nama Grafftin
 
-![photo_2022-10-15_16-34-37](https://user-images.githubusercontent.com/91402307/195981765-7c808349-eb43-4a09-8faa-d7951c279f85.jpg)
+<img width="263" alt="Screenshot_1" src="https://user-images.githubusercontent.com/91402307/195981793-de3bb6c0-4963-4630-89d2-9f5043d153e7.png">
