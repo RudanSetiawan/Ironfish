@@ -58,3 +58,8 @@ ironfish config:set enableTelemetry true
 ironfish status -f
 ```
 
+### Cek Reward/Poin setiap 12 jam akan mendapatkan 10 Point tulis Graffiti mu di Search
+
+https://testnet.ironfish.network/leaderboard
+
+![image](https://user-images.githubusercontent.com/91402307/195984483-dedea0b7-20ac-4e04-b019-c6e9a0633072.png)
