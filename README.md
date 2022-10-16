@@ -64,6 +64,12 @@ https://testnet.ironfish.network/leaderboard
 
 ![image](https://user-images.githubusercontent.com/91402307/195984483-dedea0b7-20ac-4e04-b019-c6e9a0633072.png)
 
+## Cara Upgrade Versi Ironfish 
+Pilih Nomor 2
+```
+wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.sh && sudo /bin/bash ironfish.sh
+```
+
 ## Backup Ironfish 
 ```
 ironfish accounts:export
@@ -75,5 +81,46 @@ Ikuti tutorial Install Ironfish diatas hingga bagian (cat $HOME/.ironfish/config
 ```
 ironfish accounts:import
 ```
-Setelah itu Aktifkan Telemetry
+Masukkan semua data yang sudah di backup di Notepad setelah itu Aktifkan Telemetry
 
+# Command Berguna
+
+### Stop Node
+```
+service ironfishd stop
+```
+
+### Start Node
+```
+service ironfishd start
+```
+
+### Cek Log Node
+```
+journalctl -u ironfishd -f
+```
+
+### Cek Log Miner
+```
+journalctl -u ironfishd-miner -f
+```
+
+### Migrasi
+```
+ironfish migrations:start -v
+```
+
+### Snapshot Block
+Peringatan jika ingin mining Ironfish memerlukan VPS dengan Spek yang tinggi kalau bisa Support GPU jika tidak ada lebih baik tidak usah digunakan Command ini
+```
+apt install screen
+screen -S ironfish
+ironfish chain:download
+```
+
+Jika dalam proses download bisa Ctrl A+D untuk download di belakang untuk cara kembali ke Screen 
+```
+screen -r ironfish
+```
+
+ 
