@@ -63,3 +63,17 @@ ironfish status -f
 https://testnet.ironfish.network/leaderboard
 
 ![image](https://user-images.githubusercontent.com/91402307/195984483-dedea0b7-20ac-4e04-b019-c6e9a0633072.png)
+
+## Backup Ironfish 
+```
+ironfish accounts:export
+```
+Backup dilakukan agar bisa berpindah pindah VPS Save semuanya di Notepad
+
+## Cara Import  Ironfish
+Ikuti tutorial Install Ironfish diatas hingga bagian (cat $HOME/.ironfish/config.json) setelah itu masukkann Command ini
+```
+ironfish accounts:import
+```
+Setelah itu Aktifkan Telemetry
+
