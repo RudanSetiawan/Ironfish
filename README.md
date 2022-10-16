@@ -85,6 +85,11 @@ Masukkan semua data yang sudah di backup di Notepad setelah itu Aktifkan Telemet
 
 # Command Berguna
 
+### Cek Publik Key
+```
+ironfish accounts:publickey
+```
+
 ### Stop Node
 ```
 service ironfishd stop
@@ -93,6 +98,16 @@ service ironfishd stop
 ### Start Node
 ```
 service ironfishd start
+```
+
+### Stop Miner
+```
+service ironfishd-miner stop
+```
+
+### Start Miner
+```
+service ironfishd-miner start
 ```
 
 ### Cek Log Node
@@ -132,3 +147,7 @@ screen -r ironfish
 ironfish accounts:balance --explain
 ```
 
+## Cara Hapus Ironfish Pilih Nomor 6
+```
+wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.sh && sudo /bin/bash ironfish.sh
+```
