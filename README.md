@@ -146,6 +146,23 @@ screen -r ironfish
 ```
 ironfish accounts:balance --explain
 ```
+## Cara Mining
+Peringatan jika ingin mining Ironfish memerlukan VPS dengan Spek yang tinggi kalau bisa Support GPU jika tidak ada lebih baik tidak usah digunakan Command ini
+```
+ronfish miners:start
+```
+```
+ironfish config:set blockGraffiti "masukkin graffiti"
+```
+```
+sudo apt install tmux
+```
+```
+tmux new -t ironfish
+```
+```
+ironfish miners:start --pool pool.ironfish.network --address <PUBLIC KEY>
+```
 
 ## Cara Hapus Ironfish Pilih Nomor 6
 ```
