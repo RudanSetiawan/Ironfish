@@ -109,6 +109,10 @@ journalctl -u ironfishd-miner -f
 ```
 ironfish migrations:start -v
 ```
+Atau gunakan Command ini
+```
+ironfish start --upgrade
+```
 
 ### Snapshot Block
 Peringatan jika ingin mining Ironfish memerlukan VPS dengan Spek yang tinggi kalau bisa Support GPU jika tidak ada lebih baik tidak usah digunakan Command ini
@@ -123,4 +127,8 @@ Jika dalam proses download bisa Ctrl A+D untuk download di belakang untuk cara k
 screen -r ironfish
 ```
 
- 
+### Cek Saldo
+```
+ironfish accounts:balance --explain
+```
+
