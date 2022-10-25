@@ -71,10 +71,10 @@ wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.s
 ```
 
 ## Backup Ironfish 
+Backup dilakukan agar bisa berpindah pindah VPS Save semuanya di Notepad
 ```
 ironfish accounts:export
 ```
-Backup dilakukan agar bisa berpindah pindah VPS Save semuanya di Notepad
 
 ## Cara Import  Ironfish
 Ikuti tutorial Install Ironfish diatas hingga bagian (cat $HOME/.ironfish/config.json) setelah itu masukkann Command ini
