@@ -164,7 +164,7 @@ tmux new -t ironfish
 ironfish miners:start --pool pool.ironfish.network --address <PUBLIC KEY>
 ```
 
-## Cara Hapus Ironfish Pilih Nomor 6
+## Cara Hapus Ironfish Pilih Nomor 5
 ```
 wget -q -O ironfish.sh https://api.nodes.guru/ironfish.sh && chmod +x ironfish.sh && sudo /bin/bash ironfish.sh
 ```
